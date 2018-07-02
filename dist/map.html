@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/libs.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+	<section class="settings_content">
+		<div class="container">
+			<div class="col-lg-3 col-md-5 col-sm-5 settings_block maps_block">
+				
+				<div class="settings_title">
+
+					<h4>Map</h4>
+					<img src="img/member4.jpg">
+					<a href="create_room.html" class="arrow_left plus_icon">
+						<img src="img/signs.svg" class="svg">
+					</a>
+				</div>	
+				<div class="user_list hidden_xs">
+					<div class="user_item">
+						<a href="#">
+							<div class="user_img">
+								<img src="img/member7.jpg">
+								<div class="online_circle"></div>
+							</div>
+							<div class="user_title">
+								<h5>Here we all now, entertain us!</h5>
+								<h6>Kurt Cobain</h6>
+
+							</div>
+							<div class="time">
+								<h6>12:05</h6>
+							</div>
+						</a>
+					</div>
+					<div class="user_item">
+						<a href="#">
+							<div class="user_img">
+								<img src="img/member8.jpg">
+								<div class="online_circle"></div>
+							</div>
+							<div class="user_title">
+								<h5>God Bless us everyone</h5>
+								<h6>Mike Shinoda</h6>
+
+							</div>
+							<div class="time">
+								<h6>04:56</h6>
+							</div>
+						</a>
+					</div>
+					<div class="user_item">
+						<a href="#">
+							<div class="user_img">
+								<img src="img/member8.jpg">
+								<div class="online_circle"></div>
+							</div>
+							<div class="user_title">
+								<h5>You can't run a race</h5>
+								<h6>Mike Shinoda</h6>
+
+							</div>
+							<div class="time">
+								<h6>00:18</h6>
+							</div>
+						</a>						
+					</div>
+					<div class="user_item">
+						<a href="#">
+							<div class="user_img">
+								<img src="img/member6.jpg">
+								<div class="online_circle"></div>
+							</div>
+							<div class="user_title">
+								<h5>God Bless us everyone</h5>
+								<h6>Rick Rubin</h6>
+
+							</div>
+							<div class="time">
+								<h6>04:56</h6>
+							</div>
+						</a>						
+					</div>
+					<div class="user_item">
+						<a href="#">
+							<div class="user_img">
+								<img src="img/member7.jpg">
+								<div class="online_circle"></div>
+							</div>
+							<div class="user_title">
+								<h5>Here we all now, entertain us!</h5>
+								<h6>Kurt Cobain</h6>
+
+							</div>
+							<div class="time">
+								<h6>12:05</h6>
+							</div>
+						</a>
+					</div>
+					<div class="user_item">
+						<a href="#">
+							<div class="user_img">
+								<img src="img/member8.jpg">
+								<div class="online_circle"></div>
+							</div>
+							<div class="user_title">
+								<h5>God Bless us everyone</h5>
+								<h6>Mike Shinoda</h6>
+
+							</div>
+							<div class="time">
+								<h6>04:56</h6>
+							</div>
+						</a>
+					</div>
+					<div class="user_item">
+						<a href="#">
+							<div class="user_img">
+								<img src="img/member8.jpg">
+								<div class="online_circle"></div>
+							</div>
+							<div class="user_title">
+								<h5>You can't run a race</h5>
+								<h6>Mike Shinoda</h6>
+
+							</div>
+							<div class="time">
+								<h6>00:18</h6>
+							</div>
+						</a>						
+					</div>
+					<div class="user_item">
+						<a href="#">
+							<div class="user_img">
+								<img src="img/member6.jpg">
+								<div class="online_circle"></div>
+							</div>
+							<div class="user_title">
+								<h5>God Bless us everyone</h5>
+								<h6>Rick Rubin</h6>
+
+							</div>
+							<div class="time">
+								<h6>04:56</h6>
+							</div>
+						</a>						
+					</div>
+				</div>
+				
+				<div class="content_toggler">
+					<div class="content_toggler_item">
+						<a href="chat.html">
+							<img src="img/chat.svg" class="svg">
+						</a>
+					</div>
+					<div class="content_toggler_item active">
+						<a href="map.html">
+							<img src="img/layers.svg" class="svg">
+						</a>
+					</div>
+					<div class="content_toggler_item ">
+						<a href="settings.html">
+							<img src="img/social.svg" class="svg">
+						</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="add_room_btn">
+			<a href="create_room.html">
+				<img src="img/signs.svg" class="svg">
+			</a>
+		</div>
+		<div class="google_map" id="map"></div>
+		<div class="users_info_popup">
+			<div class="user_item" data-user-popup="1">
+				<div class="item_block">
+					<div class="user_img">
+						<img src="img/member8.jpg">
+					</div>
+					<div class="user_title">
+						<h5>Here we all now, entertain us</h5>
+						<h6>Curt Kobain</h6>
+					</div>
+					<div class="time">
+						<h5>11:55</h5>
+					</div>
+				</div>
+				<div class="btn">
+					<a href="chat.html">Write message</a>
+				</div>
+			</div>
+			<div class="user_item" data-user-popup="2">
+				<div class="item_block">
+					<div class="user_img">
+						<img src="img/member7.jpg">
+					</div>
+					<div class="user_title">
+						<h5>Here we all now, entertain us</h5>
+						<h6>Curt Kobain</h6>
+					</div>
+					<div class="time">
+						<h5>11:55</h5>
+					</div>
+				</div>
+				<div class="btn">
+					<a href="chat.html">Write message</a>
+				</div>
+				
+			</div>
+
+
+		</div>
+	</section>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfXeWerazWGYsYA2WA36dgVopJAnejgzE&callback=initMap">
+    </script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

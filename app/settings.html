@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/libs.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+    
+</head>
+<body>
+	<section class="settings_content settings_page">
+
+		<div class="container">
+			<div class="col-lg-3 col-md-5 col-sm-5 settings_block">
+				
+				<div class="settings_title">
+					<h4>Settings</h4>
+					<img src="img/member4.jpg">
+				</div>	
+				<div class="user_info">
+					<div class="user_avatar">
+						<img src="img/section_bg.jpg">
+						<div class="online_circle"></div>
+					</div>
+					<h4>John Larckin</h4>
+					<a href="#">
+						<img src="img/cam.svg" class="svg">
+					</a>
+				</div>
+				<div class="tag_toggler">
+					<div class="icon">
+						<img src="img/options.svg" class="svg">
+					</div>
+					<h4>Select tag</h4>
+					<div class="checkbox_block">
+						<label class="switch">
+						  <input type="checkbox">
+						  <span class="slider round"></span>
+						</label>
+					</div>	
+				</div>
+				<div class="description">
+					<p>Something about you.</p>
+				</div>
+				<div class="content_toggler">
+					<div class="content_toggler_item">
+						<a href="chat.html">
+							<img src="img/chat.svg" class="svg">
+						</a>
+					</div>
+					<div class="content_toggler_item">
+						<a href="map.html">
+							<img src="img/layers.svg" class="svg">
+						</a>
+					</div>
+					<div class="content_toggler_item active">
+						<a href="settings.html">
+							<img src="img/social.svg" class="svg">
+						</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="add_room_btn">
+			<a href="create_room.html">
+				<img src="img/signs.svg" class="svg">
+			</a>
+		</div>
+		<div class="google_map" id="map"></div>
+	</section>
+
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfXeWerazWGYsYA2WA36dgVopJAnejgzE&callback=initMap">
+    </script>
+	<script src="js/script.js"></script>
+</body>
+</html>
